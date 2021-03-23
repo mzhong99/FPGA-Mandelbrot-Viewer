@@ -1,0 +1,10 @@
+set_global_assignment -name IP_TOOL_NAME "ALTFP_ADD_SUB"
+set_global_assignment -name IP_TOOL_VERSION "18.1"
+set_global_assignment -name IP_GENERATED_DEVICE_FAMILY "{Cyclone V}"
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "AlteraAdder.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "AlteraAdder.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "AlteraAdder_inst.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "AlteraAdder_bb.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "AlteraAdder.inc"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "AlteraAdder.cmp"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "AlteraAdder_syn.v"]
